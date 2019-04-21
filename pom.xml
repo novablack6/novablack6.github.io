@@ -25,11 +25,11 @@
 	</properties>
 
 	<distributionManagement>
-		<repository>
-			<id>release</id>
-			<name>releases</name>
-			<url>http://localhost:8040/artifactory/libs-release-local</url>
-		</repository>
+    <repository>
+        <id>central</id>
+        <name>MacBook-Pro.local-releases</name>
+        <url>http://localhost:8040/artifactory/libs-release-local</url>
+    </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>MacBook-Pro.local-snapshots</name>
