@@ -28,19 +28,19 @@
 		<repository>
 			<id>release</id>
 			<name>releases</name>
-			<url>http://localhost:8081/artifactory/libs-release-local</url>
+			<url>http://localhost:8040/artifactory/libs-release-local</url>
 		</repository>
-		<snapshotRepository>
-			<id>snapshot</id>
-			<name>snapshots</name>
-			<url>http://localhost:8081/artifactory/libs-snapshot-local</url>
-		</snapshotRepository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>MacBook-Pro.local-snapshots</name>
+        <url>http://localhost:8040/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
 	</distributionManagement>
 
 	<scm>
-		<connection>scm:git:git@github.com:nandudemy/devops.git</connection>
-		<developerConnection>scm:git:git@github.com:nandudemy/devops.git</developerConnection>
-		<url>git@github.com:nandudemy/devops.git</url>
+		<connection>scm:git:git@github.com:novablack6/novablack6.github.io.git</connection>
+		<developerConnection>scm:git:git@github.com:novablack6/novablack6.github.io.git</developerConnection>
+		<url>git@github.com:novablack6/novablack6.github.io.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
